@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(90, 21, 21, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cart img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero {
+    background: url('image/hero.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 100%, 99%);
+    text-align: center;
+}
+#jewellery-customization {
+    /* background-image: url('image/form.jpg');  */
+    background-color: rgb(245, 245, 245);   
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px; 
+    color: hsl(0, 89%, 4%); 
+    display: flexbox;
+    text-align: center; 
+}
+
+
+#jewellery-customization h2 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.form-section {
+    background-color: beige;
+    padding: 60px 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+    
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+} */
+
+select, input[type="text"], input[type="file"], input[type="radio"] {
+    margin-bottom: 20px;
+}
+
+.gender-icons, .jewellery-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gender-icons label, .jewellery-icons label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.gender-icons img, .jewellery-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+#outfit-preview img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:

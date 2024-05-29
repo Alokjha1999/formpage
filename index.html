@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+            <div class="cart">
+                <img src="image/jewelry.png" alt="Cart">
+            </div>
+            <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Elegant & Timeless Jewellery</h1>
+            <p>Our exclusive collection of jawellery.</p>
+            <button class="cta-button">Check Now</button>
+        </div>
+    </section>
+    <section class="form-section" id="jewellery-customization">
+        <h2>Jewellery Customization Process</h2>
+                <form id="jewellery-form">
+                    <label for="occasion"><h3>Occasion:</h3></label>
+                    <select id="occasion" name="occasion" required>
+                        <option value="">Select an occasion</option>
+                        <option value="engagement">Engagement</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="daily-wear">Daily Wear</option>
+                    </select>
+        
+                    <label><h3>Gift or Personal Purchase:</h3></label>
+                    <div>
+                        <input type="radio" id="gift" name="purchase" value="gift" required>
+                        <label for="gift">Gift</label>
+                        <input type="radio" id="personal" name="purchase" value="personal" required>
+                        <label for="personal">Personal Purchase</label>
+                    </div>
+        
+                    
+                    <label><h3>Gender:</h3></label>
+                    <div class="gender-row">
+            <div class="gender-icons">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male"><img src="image/Male.png" alt="Male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female"><img src="image/female.png" alt="Female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other"><img src="image/other.png" alt="Other">Other</label>
+            </div>
+            <div class="gender-dropdown">
+                <select id="gender-select" name="gender" required>
+                    <option value="">Select gender</option>
+                    <option value="male" data-icon="image/Male.png">Male</option>
+                    <option value="female" data-icon="image/female.png">Female</option>
+                    <option value="other" data-icon="image/other.png">Other</option>
+                </select>
+            </div>
+        </div>
+                    <label><h3>Age Group:</h3></label>
+                    <div>
+                        <input type="radio" id="age1" name="age-group" value="under-18" required>
+                        <label for="age1">Under 18</label>
+                        <input type="radio" id="age2" name="age-group" value="18-25" required>
+                        <label for="age2">18-25</label>
+                        <input type="radio" id="age3" name="age-group" value="26-35" required>
+                        <label for="age3">26-35</label>
+                        <input type="radio" id="age4" name="age-group" value="36-50" required>
+                        <label for="age4">36-50</label>
+                        <input type="radio" id="age5" name="age-group" value="above-50" required>
+                        <label for="age5">Above 50</label>
+                    
+
+                    <div class="religion">
+                        <label for="religion"><h3>Religion (optional):</h3></label>
+                        <input type="text" id="religion" name="religion">
+                    </div>
+        
+                   <label><h3>Type of Jewellery:</h3></label>
+                    <div class="jewellery-icons">
+                        <input type="radio" id="rings" name="jewellery-type" value="rings" required>
+                        <label for="rings"><img src="image/ring.png" alt="Rings"></label>
+                        <input type="radio" id="necklaces" name="jewellery-type" value="necklaces" required>
+                        <label for="necklaces"><img src="image/necklace.png" alt="Necklaces"></label>
+                        <input type="radio" id="pendants" name="jewellery-type" value="pendants" required>
+                        <label for="pendants"><img src="image/pendant.jpg" alt="Pendants"></label>
+                        <input type="radio" id="earrings" name="jewellery-type" value="earrings" required>
+                        <label for="earrings"><img src="image/earring.png" alt="Earrings"></label>
+                    </div>
+        
+                    <label><h3>Budget:</h3></label>
+                    <div>
+                        <input type="radio" id="budget1" name="budget" value="under-100" required>
+                        <label for="budget1">Under $100</label>
+                        <input type="radio" id="budget2" name="budget" value="100-300" required>
+                        <label for="budget2">$100 - $300</label>
+                        <input type="radio" id="budget3" name="budget" value="300-500" required>
+                        <label for="budget3">$300 - $500</label>
+                        <input type="radio" id="budget4" name="budget" value="above-500" required>
+                        <label for="budget4">Above $500</label>
+                    </div>
+        
+                    <label for="outfit"><h3>Upload an image of your outfit:</h3></label>
+                    <input type="file" id="outfit" name="outfit" accept="image/*">
+                    <div id="outfit-preview"></div>
+        
+                    <button type="submit">Get Recommendations</button>
+                </form>
+            </section>
+            <script>
+                
+            </script>
+        </body>
+        </html>
+        
+        </form>
+    </section>
+    <footer>
+        <p>&copy;  Jewellery 2024 . All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
